@@ -1,16 +1,16 @@
-Super Trunfo em C
+# Super Trunfo em C
 
-Descrição
+## Descrição
 
 Este projeto é uma implementação do jogo Super Trunfo utilizando a linguagem C. O objetivo é permitir partidas interativas seguindo as regras tradicionais do jogo.
 
-Autor
+## Autor
 
 * Nome: Pablo Muriell Batista Alves
 
 * Contato: pablo9225@gmail.com
 
-Versão
+## Versão
 
 * Versão atual: 1.0
 
@@ -18,7 +18,7 @@ Versão
 
 * Última atualização: 23/02/2025
 
-Funcionalidades
+## Funcionalidades
 
 * Cadastro e manipulação de cartas
 
@@ -28,7 +28,7 @@ Funcionalidades
 
 * Exibição dos resultados
 
-Como executar
+## Como executar
 
 Certifique-se de ter um compilador C instalado (GCC recomendado).
 
@@ -46,7 +46,7 @@ Estrutura do Projeto
 │── super_trunfo.c  # Arquivo principal do jogo
 │── README.md        # Documentação do projeto
 
-Melhorias Futuras
+## Melhorias Futuras
 
 * Implementação de um modo single-player contra IA
 
