@@ -43,8 +43,9 @@ Execute o jogo:
 Estrutura do Projeto
 
 /Projeto_Super_Trunfo
-│── super_trunfo.c  # Arquivo principal do jogo
-│── README.md        # Documentação do projeto
+│── super_trunfo.c  Arquivo principal do jogo
+
+│── README.md Documentação do projeto
 
 ## Melhorias Futuras
 
