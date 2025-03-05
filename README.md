@@ -16,7 +16,7 @@ Este projeto é uma implementação do jogo Super Trunfo utilizando a linguagem 
 
 * Data de criação: 23/02/2025
 
-* Última atualização: 23/02/2025
+* Última atualização: 05/03/2025
 
 ## Funcionalidades
 
