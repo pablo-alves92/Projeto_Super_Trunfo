@@ -14,11 +14,12 @@ int main()
 
     // Declaração das variáveis.
     char estado1[3], estado2[3], cidade1[50], cidade2[50], pais1[50], pais2[50];
-    int populacao_cd1, populacao_cd2, numero_pontos_turisticos_cd1, numero_pontos_turisticos_cd2, atributo;
+    int populacao_cd1, populacao_cd2, numero_pontos_turisticos_cd1, numero_pontos_turisticos_cd2, atributo1,
+        atributo2;
     float area_cd1, area_cd2, pib_cd1, pib_cd2, densidade_populacional_cd1, densidade_populacional_cd2,
         pib_per_capita_cd1, pib_per_capita_cd2;
 
-    // Cadastro Carta 01
+    /*// Cadastro Carta 01
 
     // Entrada de dados
     printf("----- CADASTRO DE CARTAS -----\n");
@@ -100,11 +101,10 @@ int main()
     printf("PIB: R$%.2f\n", pib_cd2);
     printf("Número de pontos turísticos: %i\n", numero_pontos_turisticos_cd2);
     printf("Densidade populacional: %.2f\n", densidade_populacional_cd2);
-    printf("PIB per capita: R$%.2f\n\n", pib_per_capita_cd2);
+    printf("PIB per capita: R$%.2f\n\n", pib_per_capita_cd2); */
 
-    // Menu que permite a escolha de qual atributo deve ser comparado!
-
-    printf("-----SELEÇÃO DO ATRIBUTO DE COMPARAÇÃO-----\n");
+    // Menu de seleção do segundo atributo de comparação
+    printf("-----SELEÇÃO DO PRIMEIRO ATRIBUTO DE COMPARAÇÃO-----\n");
     printf("1 - População\n");
     printf("2 - Área\n");
     printf("3 - PIB\n");
@@ -112,9 +112,82 @@ int main()
     printf("5 - Densidade populacional\n");
     printf("6 - PIB per capita\n\n");
     printf("Digite o número correspondente ao atributo desejado:\n");
-    scanf("%i", &atributo);
+    scanf("%i", &atributo1);
 
-    switch (atributo)
+    switch (atributo1)
+    {
+    case 1:
+        // Menu de seleção do segundo atributo de comparação
+        printf("-----SELEÇÃO DO SEGUNDO ATRIBUTO DE COMPARAÇÃO-----\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("4 - Número de pontos turísticos\n");
+        printf("5 - Densidade populacional\n");
+        printf("6 - PIB per capita\n\n");
+        printf("Digite o número correspondente ao atributo desejado:\n");
+        scanf("%i", &atributo2);
+        break;
+    case 2:
+        // Menu de seleção do segundo atributo de comparação
+        printf("-----SELEÇÃO DO SEGUNDO ATRIBUTO DE COMPARAÇÃO-----\n");
+        printf("1 - População\n");
+        printf("3 - PIB\n");
+        printf("4 - Número de pontos turísticos\n");
+        printf("5 - Densidade populacional\n");
+        printf("6 - PIB per capita\n\n");
+        printf("Digite o número correspondente ao atributo desejado:\n");
+        scanf("%i", &atributo2);
+        break;
+    case 3:
+        // Menu de seleção do segundo atributo de comparação
+        printf("-----SELEÇÃO DO SEGUNDO ATRIBUTO DE COMPARAÇÃO-----\n");
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("4 - Número de pontos turísticos\n");
+        printf("5 - Densidade populacional\n");
+        printf("6 - PIB per capita\n\n");
+        printf("Digite o número correspondente ao atributo desejado:\n");
+        scanf("%i", &atributo2);
+        break;
+    case 4:
+        // Menu de seleção do segundo atributo de comparação
+        printf("-----SELEÇÃO DO SEGUNDO ATRIBUTO DE COMPARAÇÃO-----\n");
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("5 - Densidade populacional\n");
+        printf("6 - PIB per capita\n\n");
+        printf("Digite o número correspondente ao atributo desejado:\n");
+        scanf("%i", &atributo2);
+        break;
+    case 5:
+        // Menu de seleção do segundo atributo de comparação
+        printf("-----SELEÇÃO DO SEGUNDO ATRIBUTO DE COMPARAÇÃO-----\n");
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("4 - Número de pontos turísticos\n");
+        printf("6 - PIB per capita\n\n");
+        printf("Digite o número correspondente ao atributo desejado:\n");
+        scanf("%i", &atributo2);
+        break;
+    case 6:
+        // Menu de seleção do segundo atributo de comparação
+        printf("-----SELEÇÃO DO SEGUNDO ATRIBUTO DE COMPARAÇÃO-----\n");
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("4 - Número de pontos turísticos\n");
+        printf("5 - Densidade populacional\n");
+        printf("Digite o número correspondente ao atributo desejado:\n");
+        scanf("%i", &atributo2);
+        break;
+    default:
+        break;
+    }
+
+
+    /*switch (atributo)
     {
     case 1:
         // Remover o caracter de nova linha cidade2
@@ -270,7 +343,7 @@ int main()
     default:
         printf("Opção inválida!");
         break;
-    }
+    }*/
 
     return 0;
 }
